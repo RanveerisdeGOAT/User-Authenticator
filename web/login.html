@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <script defer src="login.js"></script>
+    <link rel="stylesheet" href="/style.css">
+
+</head>
+<body>
+<h1>Login</h1>
+<form id="loginForm">
+    <label>Username: <input type="text" id="username" required></label><br>
+    <label>Password: <input type="password" id="password" required></label>
+    <a href="/forget">Forgot password?</a><br><br>
+    <button type="submit">Login</button>
+</form>
+<p id="error" style="color: red;"></p>
+<p>Dont have an account? <a href="/signup">Sign Up!</a></p>
+</body>
+</html>
